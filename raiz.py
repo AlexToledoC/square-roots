@@ -1,7 +1,8 @@
 def run():
     objetivo = int(input("Escribe un número: "))
     respuesta = 0
-
+    
+    #fuerza bruta, prueba todo
     while respuesta**2 < objetivo:
         respuesta += 1
 
